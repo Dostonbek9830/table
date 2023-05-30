@@ -1,0 +1,48 @@
+.container {
+    width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.table__section {
+    margin: 0 auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+}
+
+
+.table__header:nth-child(1) {
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.table__header:nth-child(2) {
+    padding: 25px 50px;
+    text-align: center;
+}
+
+.table__header:nth-child(3) {
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.table__header:nth-child(4) {
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.table__header:nth-child(5) {
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.table__header-bottom {
+    padding: 10px 20px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
