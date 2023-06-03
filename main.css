@@ -1,8 +1,146 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 .container {
-    width: 1480px;
+    width: 1340px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.header__item {
+    position: relative;
+    padding: 18px 0;
+}
+
+.header__link {
+    padding: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__phonenumber{
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #00BAFC;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.header__item:active {
+    background: #191919B2;
+    color: #fff;
+    border-bottom: none;
+}
+
+.header__link:active {
+    color: #fff;
+}
+
+.header__link:hover {
+    border-bottom: 3px solid #191919;
+}
+
+
+.header__phonenumber:hover {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #00BAFC;
+    background: #FFFFFF;
+    color: #00BAFC;
+    border: 3px solid #00BAFC;
+    border-radius: 5px;
+}
+
+.header__phonenumber:active {
+    background: rgba(0, 186, 252, 0.6);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.header__sublist {
+    display: none;
+    position: absolute;
+    top: calc(100%);
+    left: calc(-20%);
+    width: 135px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+}
+
+.header__subitem {
+    padding: 16px;
+}
+
+.header__sublink {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header__item:nth-child(1):hover .header__sublist {
+    display: block;
+}
+
+.header__subitem:hover {
+    background: #00BAFC;
+    color: #fff;
+}
+
+.header__sublink:hover {
+    color: #fff;
+}
+
+.header__subitem:active {
+    background: #00BAFC;
+    opacity: 0.6;
+}
+
+.header__logo:active {
+    opacity: 0.4;
+}
+
 
 
 .table__section {
